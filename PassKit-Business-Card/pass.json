@@ -1,17 +1,17 @@
 {
 	"formatVersion" : 1,
-	"passTypeIdentifier" : "pass.au.com.timoliver.businesscard.dank",
+	"passTypeIdentifier" : "pass.com.mono0926",
 	"serialNumber" : "XD",
-	"teamIdentifier" : "**INSERT YOUR TEAM IDENTIFIER CODE HERE**",
+	"teamIdentifier" : "TYBERDUS7A",
 	"barcodes" : [
 		{
-		    "message" : "https://downloads.timoliver.com.au/tim-businesscard.pkpass",
+		    "message" : "https://s3-ap-northeast-1.amazonaws.com/mono.test/PassKit-Business-Card.pkpass",
 		    "format" : "PKBarcodeFormatQR",
 		    "messageEncoding" : "iso-8859-1"
 		}
 	],
-	"organizationName" : "Tim Oliver",
-	"description" : "Tim Oliver",
+	"organizationName" : "Vikona Inc.",
+	"description" : "Masayuki Ono",
 	"foregroundColor" : "rgb(255, 255, 255)",
 	"backgroundColor" : "rgb(20, 20, 20)",
 	"labelColor" : "rgb(190, 57, 57)",
@@ -21,20 +21,20 @@
 				"key" : "header-name",
 				"textAlignment" : "PKTextAlignmentRight",
 				"label" : "PROFESSION",
-				"value" : "Hanzo Main"
+				"value" : "Software Engineer(Swift)"
 			}
 		],
 		"auxiliaryFields" : [
 			{
 				"key" : "blog",
 				"label" : "BLOG",
-				"value" : "http://timoliver.blog",
+				"value" : "https://mono0926.com",
 				"textAlignment" : "PKTextAlignmentLeft"
 			},
 			{
 				"key" : "twitter",
 				"label" : "TWITTER",
-				"value" : "@TimOliverAU",
+				"value" : "@_mono",
 				"textAlignment" : "PKTextAlignmentRight"
 			}
 		],
@@ -42,37 +42,52 @@
 			{
 				"key" : "back-name",
 				"label" : "NAME",
-				"value" : "Tim Oliver"
+				"value" : "Masayuki Ono"
 			},
 			{
 				"key" : "back-role",
 				"label" : "OCCUPATION",
-				"value" : "CMO - Chief Memes Officer"
+				"value" : "Vikiona Inc. - Chief Engineer"
 			},
 			{
 				"key" : "back-email",
 				"label" : "EMAIL",
-				"attributedValue" : "<a href='mailto:info@timoliver.com.au'>info@timoliver.com.au</a>"
+				"attributedValue" : "<a href='mailto:mono0926@gmail.com'>mono0926@gmail.com</a>"
 			},
 			{
 				"key" : "back-blog",
 				"label" : "BLOG",
-				"attributedValue" : "<a href='http://timoliver.blog'>http://timoliver.blog</a>"
+				"attributedValue" : "<a href='https://mono0926.com'>https://mono0926.com</a>"
 			},
 			{
-				"key" : "back-email",
+				"key" : "back-qiita",
+				"label" : "QIITA",
+				"attributedValue" : "<a href='http://qiita.com/mono0926'>http://qiita.com/mono0926</a>"
+			},
+			{
+				"key" : "back-medium",
+				"label" : "MEDIUM",
+				"attributedValue" : "<a href='https://medium.com/@mono0926'>@mono0926</a>"
+			},
+			{
+				"key" : "back-twitter",
 				"label" : "TWITTER",
-				"attributedValue" : "<a href='http://twitter.com/timoliverau'>@TimOliverAU</a>"
+				"attributedValue" : "<a href='http://twitter.com/_mono'>@_mono</a>"
 			},	
 			{
 				"key" : "back-instagram",
 				"label" : "INSTAGRAM",
-				"attributedValue" : "<a href='http://instagram.com/timoliver'>@TimOliver</a>"
+				"attributedValue" : "<a href='http://instagram.com/mono0926'>@mono0926</a>"
 			},	
 			{
 				"key" : "back-github",
 				"label" : "GITHUB",
-				"attributedValue" : "<a href='http://github.com/timoliver'>@TimOliver</a>"
+				"attributedValue" : "<a href='http://github.com/mono0926'>@mono0926</a>"
+			},
+			{
+				"key" : "back-discord",
+				"label" : "DISCORD",
+				"attributedValue" : "<a href='https://discord.gg/4Scjz4J'>ios-developers-japan</a>"
 			}
 		]
 	}
